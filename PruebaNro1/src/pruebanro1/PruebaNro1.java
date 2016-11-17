@@ -24,9 +24,11 @@ public class PruebaNro1 {
         System.out.println("ingresa segundo numero");
         int num2 = sc.nextInt();
         int suma = num1 + num2;
+        double mult = num1*num2;
         System.out.println("la suma es : "+suma);
+        System.out.println("la multiplicacion es : "+mult);
         
-        
+        System.out.println("gracias");
     }
     
 }
